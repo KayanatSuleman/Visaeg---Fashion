@@ -251,7 +251,45 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     + Reference: Search Box code used from <https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html> 
     To make a more responsive design: <https://www.youtube.com/watch?v=9hF9co-SCKw&t=224s&ab_channel=Viajira>
     + Future improvements: Include a fully functioning search bar that can be used to search the contents of the website and respond with the correct information for users to navigate the website in an easier fashion.
+
+>
+> Version 4
+> 
+1. ARTICLE IMPLEMENTATION AND STYLING ISSUES:
+    + Problem: make and style a container for text and image per article. 
+    + Problem: Image not entered 
+    + Problem: too much white space between both articles on both index. 
+    html and stream-three.
+    + Problem: stream-four article columns need to be aligned side by side to create a 3 column newspaper style.
+
+    + Solution: Using previous knowledge was able to configure some css styling by testing the website after each change to see which style was right for the website.
+    + Using previous knowledge on centring images I was able to replicate correct code to centre image in the middle of div by adding padding and assigning a style rule to the immediate html tag.
+    + Solution to problem three <https://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements>
+    + Solution: Examplar Article here https://codepen.io/silkine/pen/QWBxVX?editors=1100
+
     
+# Deployment
+
+### **GitHub Pages**
+
+The project was deployed to GitHub Pages using the following steps...
+
++ 1. Log in to GitHub and locate the GitHub Repository (<https://github.com/>)
++ 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu
++ Alternatively Click Here for a GIF demonstrating the process starting from Step 2. (<https://github.com/> > here needs to be a hyperlink)
++ 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
++ 4. Under "Source", click the dropdown called "None" and select "Master Branch".
++ 5. The page will automatically refresh.
++ 6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### **Forking the GitHub Repository**
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
++ 1. Log in to GitHub and locate the GitHub Repository (GitHub Repo <https://github.com/>)
++ 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
++ 3. You should now have a copy of the original repository in your GitHub account.
+
 # Deployment
 
 ### **GitHub Pages**

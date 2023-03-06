@@ -61,7 +61,7 @@ body {
    color:black;
 }
 
-{   
+#hero {
    max-width: 100%;
    height: auto;
    display: block;
@@ -97,3 +97,31 @@ form {
    color: white;
    font-family: 'Bebas Neue', cursive;
  }
+
+ #weekly-edit {
+   height: 600px;
+ }
+
+ #article-one {
+   width: 250px;
+   border: 2px solid grey;
+   padding: 10px;
+   border-radius: 10px;
+   float:left;
+ }
+
+#article-two {
+   width:250px;
+   border: 2px solid grey;
+   padding: 10px;
+   border-radius: 10px;
+   float: right;
+}
+
+#article-three {
+   width:250px;
+   border: 2px solid grey;
+   padding: 10px;
+   border-radius: 10px;
+   margin: 0 auto;
+}
