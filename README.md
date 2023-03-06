@@ -171,12 +171,87 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 + A large amount of testing was done to ensure that all pages were linking correctly.
 + Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### **Known Bugs**
+### **Bug Fixes**
+>
+> Version 1
+> 
+1. SETUP ISSUES
+    + Problem: Can’t see browser preview in terminal (after creating terminal port 8000 using python 3-m http.server.
+    + Solution: Use the magnifying glass icon to see the additional browser preview.
 
-+ On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-+ A white gap can be seen to the right of the footer and navigation bar as a result.
-+ On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+2. WEBSITE DEVELOPMENT ISSUES + HTML FILES LINKING:
+   + Problem: "a href" elements created as an "ul" list in the "li" format. It does not appear at 3 separate streams.
+   + Solution: Each stream link needs its own individual li tag on separate lines.
 
+3. CSS STYLESHEET CONNECTION TO INDEX.HTML ISSUES:
+   + Problem: Created a stylesheet called style.css linked stream-one.html. Under the "link ref =“stylesheet” href=“css/style/css" but it doesn’t update the website with the new added styles.
+   + Solution: The reason why it didn’t work was because the css was written in capital letters, and the linked as not rightly linked/directed. Also I was connecting the stylesheet to stream-one.html and not by style.css. Also using Emmett don’t work, I have to type things out myself.
+
+4. CSS STYLESHEET APPLICATION ON ALL HTML FILES:
+    + Problem: Created assets folder, then put css - stylesheet.css in, as a folder and then put img in as a folder. Applied content to body i.e; purple font, both stream-two.html and stream-three.html work upon testing but stream-one.html doesn’t not.
+    + Solution: Fixed link by copy pasting stream 3 data and force refresh from cache using shift and clicking the refresh button.
+
+>
+> Version 2
+> 
+1. CSS STYLESHEET FONT APPLICATIONS ON ALL HTML FILES:
+    + Problem: Of inserting my personal set of custom fonts using google fonts.
+    + Solution: Click on font on google and select @import xyz. Add link to stylesheet, and using preferred css ruling given by google - update css font-family
+    Remember @ imports always go at the top of the page.
+
+2. STREAM-ONE UPDATE TO INDEX.HTML:
+   + Problem: Stream-one.html = “home page” was called Stream-one across all pages - changed to index.html.
+   + Solution: The name of the file was updated across all html links and pages.
+
+3. UPLOADING IMAGE TO ASSETS FOLDER:
+   + 7. Problem: Trying to update an image in assets folder > img > logo.png.
+    Linked Logo.png using "a href=“assets/img/logo.png>" but no image display. 
+   + Solution: There was no img tag assocaited with the certain piece of code.
+   + Reference:<https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages>
+
+4. CENTERING LOGO:
+    + Problem: I want to make the logo.img centre.
+    + Solution: Adapted from  stack overflow
+    + Reference: <https://stackoverflow.com/questions/35162053/center-logo-in-html>
+
+5. HOW TO ADD A HORIZONTAL LINE:
+    + Problem:  How to add a horizontal line break.
+    + Solution: Adapted from Hubspot. Overstack recommends: Drop hr and use border-top and border-bottom in conjunction with padding on the div.
+    hr should be used as a horizontal rule.
+    For instance, a hard separation of paragraph or a long break - and not as a visual element.
+    However - decided to HR element - using css to style and width: 1200px max. After some experimentation I liked the visual look of width-max: 1250px.
+
+    + Reference:
+    <https://blog.hubspot.com/website/blog/tabid/6307/bid/19727/easy-html-tricks-for-the-non-technical-marketer.aspx#:~:text=Line%20in%20HTML-,To%20make%20a%20horizontal%20line%20in,use%20the%20element.>
+    <https://www.w3schools.com/howto/howto_css_style_hr.asp>
+    <https://stackoverflow.com/questions/3126995/combining-border-top-border-right-border-left-border-bottom-in-css>
+
+>
+> Version 3
+> 
+1. HOW TO GET DESIRED NAVIGATION LOOK:
+    + Problem: How to style my navigation bar to get desired look
+    + Solution: Add hr element tag, top and bottom of nav element
+	  + Add CSS styling and # hr { border: 1px solid black; width: 1150px; }
+	  + Reduce the size of the line height : 15px; and height : 15px of the nav li.
+    + Future improvements: I would like the nav bar contents responsive by getting larger when the cursor floats over the options to create a more interactive user experience. 
+
+2. WEBSITE STRUCTURE - LOGO.png CONNECTED TO HOME - WHEN CLICKED:
+   + Problem: Need to connect the image used for logo to index.html so log take you back to homepage when clicked by user.
+   + Solution: add a href tag - to index.html across all html.pages.
+
+3. RESPONSIVE HERO IMAGE:
+   + Problem: Add image (hero) img but it is not responding to size change of browser.
+   + Solution: How to make img responsive to site changes: .responsive {width: 100% height: auto;}
+   + Reference:<https://www.w3schools.com/howto/howto_css_image_responsive.asp>
+
+4. SEARCH BAR INTREGRATION + RESPONSIVENESS:
+    + Problem: Add search bar to navigation bar.
+    + Solution: Tutorials and code found as referenced below. However issue still persists - changes location on page when browser changes width.
+    + Reference: Search Box code used from <https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html> 
+    To make a more responsive design: <https://www.youtube.com/watch?v=9hF9co-SCKw&t=224s&ab_channel=Viajira>
+    + Future improvements: Include a fully functioning search bar that can be used to search the contents of the website and respond with the correct information for users to navigate the website in an easier fashion.
+    
 # Deployment
 
 ### **GitHub Pages**

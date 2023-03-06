@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Playfair+Display&display=swap');
+
 style.cssbody {
    margin: 0;
    padding: 0;
    font-family: Bebas Neue, Maleo Medium;
+}
+
+hr {
+   border: 1px solid black;
+   width: 1250px;
 }
 
 nav ul {
@@ -13,15 +20,80 @@ nav ul {
 }
 
 nav li {
-   font-size: 1.2em;
-   line-height: 40px;
-   height: 40px; 
-   display: in-line block;
+   font-size: 1em;
+   line-height: 15px;
+   height: 15px; 
+   display: inline-block;
    margin: 2.5%
+   
 }
 
 nav a {
    text-decoration: none;
-   color:black;
-   display: block;
+   color: black;
+   display: float;
+   font-family: 'Bebas Neue', cursive;
+   
 }
+
+h2 {
+   font-family: 'Playfair Display', serif;
+   text-transform: uppercase;
+   font-size: 1.5em;
+   font-style: italic;
+}
+
+h3 {
+   font-family: 'Bebas Neue', cursive;
+   text-transform: uppercase;
+   font-size: 1em;
+}
+
+p {
+   font-family: 'EB Garamond', serif;
+   font-size: 1em;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'EB Garamond', serif;
+   color:black;
+}
+
+{   
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/*The following code was inspired by: https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html
+The issues surrounding fixing the position was inspired by: https://stackoverflow.com/questions/48760863/shifting-the-search-bar-to-right-of-navigation-bar*/
+
+form {
+   width: 400px;
+   position:absolute;
+   right: 50px;
+   bottom: 420px; 
+ }
+ 
+ input {
+   padding: 4px 10px;
+   border: 0px;
+   font-size: 16px;
+ }
+ 
+ .search {
+   width: 75%;
+   background-color: rgba(174, 169, 169, 0.255);
+   font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .submit {
+   width: 70px;
+   background-color: rgb(53, 50, 50);
+   color: white;
+   font-family: 'Bebas Neue', cursive;
+ }

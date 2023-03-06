@@ -1,21 +1,42 @@
+<!--Please refer to the Testing Section of my READMe.md to see the details of Version 3 bug fixes-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hello World</title>
+        <link href="assets/css/stylesheet.css" rel="stylesheet">
+    </head>
 <body>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="assets/img/logo.png">
+        </a>
+    </header>
+    <hr>
+    <!--Improvement: Responsive animated nav bar-->
     <nav>
         <ul>
-            <li><a href="Stream-One.html">Stream One</a></li>
-            <li><a href="Stream-Two.html">Stream Two</a></li>
-            <li><a href="Stream-Three.html">Stream Three</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="stream-two.html">SHOP MY OUTFITS</a></li>
+            <li><a href="stream-three.html">WEEKLY EDIT</a></li>
         </ul>
+
+        <!--Search Box code used from https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html
+        To make a more responsive design: https://www.youtube.com/watch?v=9hF9co-SCKw&t=224s&ab_channel=Viajira-->
+<form action="/form/submit" method="GET"> 
+    <input type="text" name="text" class="search" placeholder="Spring Outfits...">
+    <input type="submit" name="submit" class="submit" value="Search">
+  </form>
     </nav>
-    <h1>Stream One</h1>
-    <p>This project was written in Gitpod</p>
-</body>
-</html>
+ <hr>
+    <section>
+        <!--Improvement - To create a more responsive zoom in effect for hero image-->
+        <!--Hero image needs draft 2 in procreate (create equal sized images)-->
+        <div>
+            <a href="index.html">
+                <img id="hero" src="assets/img/hero.png">
+            </a>
+        </div>
+    </section> 
