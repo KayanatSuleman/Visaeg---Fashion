@@ -1,127 +1,240 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Playfair+Display&display=swap');
 
-style.cssbody {
-   margin: 0;
-   padding: 0;
-   font-family: Bebas Neue, Maleo Medium;
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height:150%;
 }
 
 hr {
-   border: 1px solid black;
-   width: 1250px;
+    border: 1px solid black;
+    width: 1250px;
 }
 
+/*NAV ELEMENT STYLING*/
 nav ul {
-   list-style: none;
-   background-color:white;
-   text-align: left;
-   padding: 0;
-   margin: 0;
+    list-style: none;
+    background-color: #f9f7f1;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    
 }
 
 nav li {
-   font-size: 1em;
-   line-height: 15px;
-   height: 15px; 
-   display: inline-block;
-   margin: 2.5%
-   
+    font-size: 1em;
+    line-height: 15px;
+    height: 15px; 
+    display: inline-block;
+    margin: 2.5%
+    
 }
 
 nav a {
-   text-decoration: none;
-   color: black;
-   display: float;
-   font-family: 'Bebas Neue', cursive;
-   
+    text-decoration: none;
+    color: black;
+    display: float;
+    font-family: 'Bebas Neue', cursive;
+    
 }
 
+/*TEXT ELEMENT STYLING*/
 h2 {
-   font-family: 'Playfair Display', serif;
-   text-transform: uppercase;
-   font-size: 1.5em;
-   font-style: italic;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-style: italic;
 }
 
 h3 {
-   font-family: 'Bebas Neue', cursive;
-   text-transform: uppercase;
-   font-size: 1em;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 1em;
 }
 
 p {
-   font-family: 'EB Garamond', serif;
-   font-size: 1em;
+    font-family: 'EB Garamond', serif;
+    font-size: 1em;
 }
 
 body {
-   margin: 0;
-   padding: 0;
-   font-family: 'EB Garamond', serif;
-   color:black;
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+    color:black;
 }
 
+/*HERO IMAGE ELEMENT STYLING*/
 #hero {
-   max-width: 100%;
-   height: auto;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
 }
 
 /*The following code was inspired by: https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html
 The issues surrounding fixing the position was inspired by: https://stackoverflow.com/questions/48760863/shifting-the-search-bar-to-right-of-navigation-bar*/
-
+/*SEARCH BAR ELEMENT STYLING*/
 form {
-   width: 400px;
-   position:absolute;
-   right: 50px;
-   bottom: 420px; 
- }
- 
- input {
-   padding: 4px 10px;
-   border: 0px;
-   font-size: 16px;
- }
- 
- .search {
-   width: 75%;
-   background-color: rgba(174, 169, 169, 0.255);
-   font-family: 'Bebas Neue', cursive;
- }
- 
- .submit {
-   width: 70px;
-   background-color: rgb(53, 50, 50);
-   color: white;
-   font-family: 'Bebas Neue', cursive;
- }
+    width: 400px;
+    position:absolute;
+    right: 50px;
+    bottom: 485px; 
+  }
+  
+  input {
+    padding: 4px 10px;
+    border: 0px;
+    font-size: 16px;
+  }
+  
+  .search {
+    width: 75%;
+    background-color: rgba(174, 169, 169, 0.255);
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .submit {
+    width: 70px;
+    background-color: rgb(53, 50, 50);
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+  }
 
- #weekly-edit {
-   height: 600px;
- }
+  /* VERTICAL DIV ELEMENT COMMENTED OUT
 
- #article-one {
-   width: 250px;
-   border: 2px solid grey;
-   padding: 10px;
-   border-radius: 10px;
-   float:left;
- }
+  .vertical {
+    border-left: 2px solid grey;
+    height: 550px;
+    position:absolute;
+    left: 50%;
+    margin-left: -370px;
+    top: 770px;
+  }*/
+
+  /*WEEKLY EDIT ARTICLE STYLING*/
+
+  /*The parent "weekly edit" was changed to display: flex to reduce white space between div elements
+   -https://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements */
+  #weekly-edit {
+    display: flex;
+    margin-top: 50px;
+  }
+
+  #weekly-edit-title {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-size: 3em;
+    float:left;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #article-one {
+    width: 250px;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    float:right;
+    margin-right:20px;
+  }
 
 #article-two {
-   width:250px;
-   border: 2px solid grey;
-   padding: 10px;
-   border-radius: 10px;
-   float: right;
+    width:250px;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-right:20px;
 }
 
 #article-three {
-   width:250px;
-   border: 2px solid grey;
-   padding: 10px;
-   border-radius: 10px;
-   margin: 0 auto;
+    width:250px;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    float:left;
+}
+
+/*MUST HAVE'S ELEMENT STYLING*/
+
+#months-must-have {
+  display: flex;
+}
+
+#months-must-have-title {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  font-size: 3em;
+  float:right;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.boutique-widget {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#shop-my-outfits-title {
+  margin-top: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+ text-align: center;
+}
+
+#social-channels {
+text-align: center;
+margin-right: 60px;
+}
+
+#social-channels li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+#social-channels i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 5%;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/*
+#contact-me {
+text-align: center;
+}
+
+#contact-me li {
+  display: inline-block;
+}
+
+#contact-me i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 5%;
+  color: black;
+}*/
+
+/* Weekly Edit Page*/
+#read-the-weekly-edit {
+  margin-top: 50px;
+}
+
+#line-break-weekly-edit {
+  margin-top: 120px;
+}
+
+#line-break-index {
+  margin-top: 50px;
 }

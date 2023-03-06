@@ -267,7 +267,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     + Solution to problem three <https://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements>
     + Solution: Examplar Article here https://codepen.io/silkine/pen/QWBxVX?editors=1100
 
-    
+2. FOOTER INTREGRATION & STYLING:
+    + Problem: The icons sourced from font awesome do not show on the footer.
+    + Problem: the footer would not centre.
+
+    + Solution: Needed to add 'script src="https://kit.fontawesome.com/964b61596d.js" crossorigin="anonymous">script' from font awesome website by creating a kit.
+    + Solution: Assign the parent the style attribute of text-align=center
+
 # Deployment
 
 ### **GitHub Pages**
