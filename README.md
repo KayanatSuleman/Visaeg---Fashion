@@ -274,6 +274,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     + Solution: Needed to add 'script src="https://kit.fontawesome.com/964b61596d.js" crossorigin="anonymous">script' from font awesome website by creating a kit.
     + Solution: Assign the parent the style attribute of text-align=center
 
+>
+> Version 5 & 6
+> 
++ Final code - passed through validators. 
+
 # Deployment
 
 ### **GitHub Pages**

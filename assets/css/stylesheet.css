@@ -284,9 +284,9 @@ text-align: center;
 }*/
 
 @media only screen and (max-width: 320px) {
-#weekly-edit {
+.weekly-edit {
    display:grid;
-  }
+}
 
 #vertical div {
    vertical-align:middle;
@@ -294,24 +294,24 @@ text-align: center;
    text-align: center;
 }
 
-#article-one {
+.article-one {
    position: relative;
    margin-top:20px;
 }
 
-#article-two {
+.article-two {
    position: relative;
    margin-top:20px;
 }
 
-#article-three {
+.article-three {
    position: relative;
    margin-top:20px;
 }
 }
 
 @media only screen and (max-width: 481px) {
-   #weekly-edit {
+   .weekly-edit {
    display:grid;
    }
    
@@ -321,18 +321,19 @@ text-align: center;
     text-align: center;
    }
    
-   #article-one {
+   .article-one {
     position: relative;
     margin-top:20px;
    }
    
-   #article-two {
+   .article-two {
     position: relative;
     margin-top:20px;
    }
    
-   #article-three {
-    position: relative;
-    margin-top:20px;
-   }
-   }
+   .article-three {
+      position: relative;
+      margin-top:20px;
+     }
+     }
+  
