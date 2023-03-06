@@ -1,112 +1,141 @@
-<!--Please refer to the Testing Section of my READMe.md to see the details of Version 5 bug fixes-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>visaeg london</title>
+        <title>VISAEG LONDON</title>
         <link href="assets/css/stylesheet.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/964b61596d.js" crossorigin="anonymous"></script>
     </head>
 
-<body style="background-color:#f9f7f1;">
-    <header>
-        <a href="index.html">
-            <img id="logo" src="assets/img/logo.png">
-        </a>
-    </header>
-
+    <body style="background-color:#f9f7f1;">
+        <header>
+            <a href="index.html">
+                 <img id="logo" src="assets/img/logo.png" alt="visaeg logo">
+            </a>
+        </header>
 <hr>
 
 <!--Improvement: Responsive animated nav bar-->
 <nav>
     <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="stream-two.html">SHOP MY OUTFITS</a></li>
-        <li><a href="stream-three.html">WEEKLY EDIT</a></li>
+        <li>
+              <a href="index.html">HOME</a>
+        </li>
+        <li>
+              <a href="stream-two.html">SHOP MY OUTFITS</a>
+        </li>
+        <li>
+              <a href="stream-three.html">WEEKLY EDIT</a>
+        </li>
      </ul>
+</nav>
 
 <!--Search Box code used from https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html
  To make a more responsive design: https://www.youtube.com/watch?v=9hF9co-SCKw&t=224s&ab_channel=Viajira-->
-   <form action="/form/submit" method="GET"> 
+ <!--
+    Future improvement: Add fully functioning search bar.
+  <form action="/form/submit" method="GET"> 
          <input type="text" name="text" class="search" placeholder="Spring Outfits...">
          <input type="submit" name="submit" class="submit" value="Search">
    </form>
-</nav>
+ -->
 
 <hr>
 
 <!--Improvement - To create a more responsive zoom in effect for hero image-->
 <!--Hero image needs draft 2 in procreate (create equal sized images)-->
- <section>
-    <div>
-        <a href="index.html">
-            <img id="hero" src="assets/img/hero.png">
-        </a>
-    </div>
-</section> 
+<div>
+    <a href="index.html">
+        <img id="hero" src="assets/img/hero.png" alt="4 different fashion outfits as hero image">
+    </a>
+</div>
+
 
 <!--Article & box inspired by code from: https://www.geeksforgeeks.org/how-to-write-articles-in-html-document/
-Image center issue: Solution found: https://stackoverflow.com/questions/44295351/how-to-create-a-border-in-css-that-doesnt-change-size-->
+Image centre issue: Solution found: https://stackoverflow.com/questions/44295351/how-to-create-a-border-in-css-that-doesnt-change-size-->
 <div class="vertical"></div>
-<section id="weekly-edit">
-<div id="weekly-edit-title"><h3>Weekly Edit</h3></div>
-<div>
-    <article id="article-one">
-        <div style="text-align: center;"><img id="article-one-img" src="assets/img/article-one-img.jpg" width="200" height="250"></div>
-        <h3>Weekly Edit | 20.02.2023</h3>
-        <h2>The confidence guide; How to dress your best.</h2>
-        <p>Dressing your best all the time can be exhausting, but a large part of your self confidence and self expression plays a part on how you feel.</p>
-        <h3>Click here to read more</h3>
-    </article>
+<section class="weekly-edit">
+<div class="weekly-edit-title">
+         <h3>Weekly Edit</h3>
 </div>
-<div>
-    <article id="article-two">
-        <div style="text-align: center;"><img id="article-two-img" src="assets/img/article-two-img.jpg" width="200" height="250"></div>
-        <h3>Weekly Edit | 13.02.2023</h3>
-        <h2>The ultimate capsule wardrobe; essentials.</h2>
-        <p>Transitional weather is upon us, here are my best capsule pieces to keep you looking great, and at the right temperature this spring.</p>
-        <h3>Click here to read more</h3>
+     <div id="responsive-one">
+         <article class="article-one">
+             <div style="text-align: center;">
+                      <img id="article-one-img" src="assets/img/article-one-img.jpg" width="200" height="250" alt="Be kind to yourself graphical text" >
+             </div>
+              <h3>Weekly Edit | 20.02.2023</h3>
+                  <h2>The confidence guide; How to dress your best.</h2>
+                             <p>Dressing your best all the time can be exhausting, but a large part of your self confidence and self expression plays a part on how you feel.</p>
+             <a href="stream-four.html" class="hyperlink-style">
+                 <h3>Click here to read more</h3>
+            </a>
+         </article>
+    </div>
+<div id="responsive-two">
+    <article class="article-two">
+         <div style="text-align: center;">
+             <img id="article-two-img" src="assets/img/article-two-img.jpg" width="200" height="250" alt="Graphical image of a barcode">
+        </div>
+         <h3>Weekly Edit | 13.02.2023</h3>
+              <h2>The ultimate capsule wardrobe; essentials.</h2>
+                     <p>Transitional weather is upon us, here are my best capsule pieces to keep you looking great, and at the right temperature this spring.</p>
+        <a href="stream-four.html" class="hyperlink-style">
+             <h3>Click here to read more</h3>
+        </a>
     </article>
 </div>   
-<div>
-    <article id="article-three">
-        <div style="text-align: center;"><img id="article-three-img" src="assets/img/article-three-img.jpg" width="200" height="250"></div>
-        <h3>Weekly Edit | 06.02.2023</h3>
-        <h2>Put your best foot forward: How to dress to impress.</h2>
-        <p>Start with the odds in your favour - EVERYDAY. And it begins with your outfit. Here are some top tips to have outfits prepared in advance.</p>
-        <h3>Click here to read more</h3>
+<div id="responsive-three">
+    <article class="article-three">
+         <div style="text-align: center;">
+                 <img id="article-three-img" src="assets/img/article-three-img.jpg" width="200" height="250" alt="Promiscuous lips">
+        </div>
+         <h3>Weekly Edit | 06.02.2023</h3>
+             <h2>Put your best foot forward: How to dress to impress.</h2>
+                     <p>Start with the odds in your favour - EVERYDAY. And it begins with your outfit. Here are some top tips to have outfits prepared in advance.</p>
+        <a href="stream-four.html" class="hyperlink-style">
+             <h3>Click here to read more</h3>
+        </a>
     </article>
 </div>
 </section>  
 
 <!--Liketoknow.it powered widget link source: https://creator.shopltk.com/web/apps/boutique-->
 <section id="months-must-haves">
-    <div id="months-must-have-title"><h3>Month's Must Haves</h3></div>
-    <div><div class="boutique-widget" data-widget-id="1191579"><script type="text/javascript">!function(w,i,d,g,e,t){d.getElementById(i)||(element=d.createElement(t),element.id=i,element.src="https://widgets.rewardstyle.com"+e,d.body.appendChild(element)),w.hasOwnProperty(g)===!0&&"complete"===d.readyState&&w[g].init()}(window,"boutique-script",document,"__boutique","/js/boutique.js","script")</script><div class="rs-adblock"><img src="https://assets.rewardstyle.com/production/4e418d43464e82e2dae3da4b95956cb8c718c40a/images/search/350.gif" onerror='this.parentNode.innerHTML="Disable your ad blocking software to view this content."' style="width: 15px; height: 15px"><noscript>JavaScript is currently disabled in this browser. Reactivate it to view this content.</noscript></div></div></div>
+    <div id="months-must-have-title">
+        <h3>Month's Must Haves</h3>
+    </div>
+    <div>
+          <div class="boutique-widget" data-widget-id="1191579"><script>!function(w,i,d,g,e,t){d.getElementById(i)||(element=d.createElement(t),element.id=i,element.src="https://widgets.rewardstyle.com"+e,d.body.appendChild(element)),w.hasOwnProperty(g)===!0&&"complete"===d.readyState&&w[g].init()}(window,"boutique-script",document,"__boutique","/js/boutique.js","script")</script><div class="rs-adblock"><img src="https://assets.rewardstyle.com/production/4e418d43464e82e2dae3da4b95956cb8c718c40a/images/search/350.gif" onerror='this.parentNode.innerHTML="Disable your ad blocking software to view this content."' style="width: 15px; height: 15px" alt="liketoknowit.com is the affiliate fashion brand, which shows clickable product images"><noscript>JavaScript is currently disabled in this browser. Reactivate it to view this content.</noscript></div></div>
+    </div>
 </section>
 
+
 <hr id="line-break-index">
- <footer>
+<footer>
     <section id="social-channels">
         <h3>Social channels</h3>
             <ul>
-                 <li><a href="https://www.instagram.com/kayanat.suleman/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i> </a></li>
-                 <li><a href="https://www.tiktok.com/@kayanat_suleman?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i> </a></li>
+                 <li>
+                         <a href="https://www.instagram.com/kayanat.suleman/" target="_blank"><i class="fa fa-instagram" style="font-size:36px"></i> </a></li>
+                 <li>
+                         <a href="https://www.tiktok.com/@kayanat_suleman?lang=en" target="_blank"><i class="fa-brands fa-tiktok"></i> </a></li>
             </ul>
     </section>
-<!--   
-     <section id="contact-me">
-        <h3>Contact Me</h3>
+</footer>       
+
+<!--Future Integration: Contact me information in footer
+
+<section id="contact-me">
+    <h3>Contact Me</h3>
             <ul>
-               <li>kayanatsuleman@gmail.com</li>
+                 <li>kayanatsuleman@gmail.com</li>
             </ul>
-    </section> 
+ </section> 
 -->
-</footer>
+
 <hr>
+
 </body>
 </html>
-
-
