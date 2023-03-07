@@ -171,7 +171,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 > Version 1
 >
 1. SETUP ISSUES
-    + Problem: Can’t see browser preview in terminal (after creating terminal port 8000 using python 3-m http.server.
+    + Problem: Can’t see browser preview in terminal after creating terminal port 8000 using python 3-m http.server.
     + Solution: Use the magnifying glass icon to see the additional browser preview.
 
 2. WEBSITE DEVELOPMENT ISSUES + HTML FILES LINKING:
@@ -202,12 +202,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    + 7. Problem: Trying to update an image in assets folder > img > logo.png.
     Linked Logo.png using "a href=“assets/img/logo.png>" but no image display.
    + Solution: There was no img tag associated with the certain piece of code.
-   + Reference:<https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages>
+   + (Reference) [<https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages>]
 
 4. CENTERING LOGO:
     + Problem: I want to make the logo.img centre.
     + Solution: Adapted from  stack overflow
-    + Reference: <https://stackoverflow.com/questions/35162053/center-logo-in-html>
+    + (Reference) [<https://stackoverflow.com/questions/35162053/center-logo-in-html>]
 
 5. HOW TO ADD A HORIZONTAL LINE:
     + Problem:  How to add a horizontal line break.
@@ -216,10 +216,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     For instance, a hard separation of paragraph or a long break - and not as a visual element.
     However - decided to HR element - using css to style and width: 1200px max. After some experimentation I liked the visual look of width-max: 1250px.
 
-    + Reference:
-    <https://blog.hubspot.com/website/blog/tabid/6307/bid/19727/easy-html-tricks-for-the-non-technical-marketer.aspx#:~:text=Line%20in%20HTML-,To%20make%20a%20horizontal%20line%20in,use%20the%20element.>
-    <https://www.w3schools.com/howto/howto_css_style_hr.asp>
-    <https://stackoverflow.com/questions/3126995/combining-border-top-border-right-border-left-border-bottom-in-css>
+    + (Reference 1)
+    [<https://blog.hubspot.com/website/blog/tabid/6307/bid/19727/easy-html-tricks-for-the-non-technical-marketer.aspx#:~:text=Line%20in%20HTML-,To%20make%20a%20horizontal%20line%20in,use%20the%20element.>]
+    (Reference 2)
+    [<https://www.w3schools.com/howto/howto_css_style_hr.asp>]
+    (Reference 3)
+    [<https://stackoverflow.com/questions/3126995/combining-border-top-border-right-border-left-border-bottom-in-css>]
 
 >
 > Version 3
@@ -238,13 +240,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 3. RESPONSIVE HERO IMAGE:
    + Problem: Add image (hero) img but it is not responding to size change of browser.
    + Solution: How to make img responsive to site changes: .responsive {width: 100% height: auto;}
-   + Reference:<https://www.w3schools.com/howto/howto_css_image_responsive.asp>
+   + [Reference] (<https://www.w3schools.com/howto/howto_css_image_responsive.asp>)
 
 4. SEARCH BAR INTEGRATION + RESPONSIVENESS:
     + Problem: Add search bar to navigation bar.
     + Solution: Tutorials and code found as referenced below. However issue still persists - changes location on page when browser changes width.
-    + Reference: Search Box code used from <https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html>
-    To make a more responsive design: <https://www.youtube.com/watch?v=9hF9co-SCKw&t=224s&ab_channel=Viajira>
+    + (Reference:) Search Box code used from [<https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html>]
+    To make a more (responsive design:) [<https://www.youtube.com/watch?v=9hF9co-SCKw&t=224s&ab_channel=Viajira>]
     + Future improvements: Include a fully functioning search bar that can be used to search the contents of the website and respond with the correct information for users to navigate the website in an easier fashion.
 
 >
@@ -259,8 +261,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     + Solution: Using previous knowledge was able to configure some css styling by testing the website after each change to see which style was right for the website.
     + Using previous knowledge on centring images I was able to replicate correct code to centre image in the middle of div by adding padding and assigning a style rule to the immediate html tag.
-    + Solution to problem three <https://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements>
-    + Solution: Exemplar Article here <https://codepen.io/silkine/pen/QWBxVX?editors=1100>
+    + Solution to (problem three) [<https://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements>]
+    + Solution: Exemplar Article (here) [<https://codepen.io/silkine/pen/QWBxVX?editors=1100>]
 
 2. FOOTER INTEGRATION & STYLING:
     + Problem: The icons sourced from font awesome do not show on the footer.
@@ -280,9 +282,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-+ 1. Log in to GitHub and locate the GitHub Repository (<https://github.com/>)
+  + 1. Log in to GitHub and locate the (GitHub Repository) [<https://github.com/>]
 + 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu
-+ Alternatively Click Here for a GIF demonstrating the process starting from Step 2. (<https://github.com/> > here needs to be a hyperlink)
++ Alternatively (Click Here) for a GIF demonstrating the process starting from Step 2. [<https://github.com/>]
 + 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 + 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 + 5. The page will automatically refresh.
@@ -292,7 +294,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-+ 1. Log in to GitHub and locate the GitHub Repository (GitHub Repo <https://github.com/>)
++ 1. Log in to GitHub and locate the (GitHub Repository) [<https://github.com/>]
 + 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 + 3. You should now have a copy of the original repository in your GitHub account.
 
@@ -302,9 +304,9 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 The project was deployed to GitHub Pages using the following steps...
 
-+ 1. Log in to GitHub and locate the GitHub Repository (<https://github.com/>)
++ 1. Log in to GitHub and locate the (GitHub Repository) [<https://github.com/>]
 + 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu
-+ Alternatively Click Here for a GIF demonstrating the process starting from Step 2. (<https://github.com/> > here needs to be a hyperlink)
++ Alternatively (Click Here) for a GIF demonstrating the process starting from Step 2. [<https://github.com/>]
 + 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 + 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 + 5. The page will automatically refresh.
@@ -314,20 +316,19 @@ The project was deployed to GitHub Pages using the following steps...
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-+ 1. Log in to GitHub and locate the GitHub Repository (GitHub Repo <https://github.com/>)
++ 1. Log in to GitHub and locate the (GitHub Repository) [<https://github.com/>]
 + 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 + 3. You should now have a copy of the original repository in your GitHub account.
 
 ### **Making a Local Clone**
 
-+ 1. Log in to GitHub and locate the GitHub Repository. (GitHub Repo <https://github.com/>)
++ 1. Log in to GitHub and locate the (GitHub Repository). [<https://github.com/>]
 + 2. Under the repository name, click "Clone or download".
 + 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 + 4. Open Git Bash.
 + 5. Change the current working directory to the location where you want the cloned directory to be made.
-+ 6. Type git clone, and then paste the URL you copied in Step 3 = $ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>
-+ 7. Press Enter. Your local clone will be created. =
-$ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>
++ 6. Type git clone, and then paste the URL you copied in Step 3 = $ (git clone) [<https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>]
++ 7. Press Enter. Your local clone will be created. = $ (git clone) [<https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>]
 
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
