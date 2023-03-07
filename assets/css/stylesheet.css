@@ -310,30 +310,30 @@ text-align: center;
 }
 }
 
-@media only screen and (max-width: 481px) {
-   .weekly-edit {
+@media only screen and (max-width: 768px) {
+.weekly-edit {
    display:grid;
    }
    
-   #vertical div {
+#vertical div {
     vertical-align:middle;
     margin:0 auto;
     text-align: center;
    }
    
-   .article-one {
+.article-one {
     position: relative;
     margin-top:20px;
    }
    
-   .article-two {
+.article-two {
     position: relative;
     margin-top:20px;
    }
    
-   .article-three {
+.article-three {
       position: relative;
       margin-top:20px;
      }
-     }
+}
   

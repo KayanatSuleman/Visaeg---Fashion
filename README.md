@@ -1,10 +1,8 @@
 # <p style="text-align: center;">Milestone Project: Visaeg London</p>
 
-[View the live project here](<https://8000-kayanatsule-visaegfashi-bwq40s1ljjf.ws-eu87.gitpod.io/stream-two.html>)
+[View the live project here](<https://8000-kayanatsule-visaegfashi-bwq40s1ljjf.ws-eu89.gitpod.io/index.html>)
 
-This is the main affilate marketing website for Visaeg London - a curation of cutting-edge fashion pieces and related articles on body confidence. It is designed to be responsive and accessible on a range of devices, making it easy for women inspired and intrested in fashion to shop a range of fashion items - inspired and curated by Kayanat Suleman.
-
-<img src="assets/img/visaeg--on-devices">
+This is the main affiliate marketing website for Visaeg London - a curation of cutting-edge fashion pieces and related articles on body confidence. It is designed to be responsive and accessible on a range of devices, making it easy for women inspired and interested in fashion to shop a range of fashion items - inspired and curated by Kayanat Suleman.
 
 # User Experience (UX)
 
@@ -14,68 +12,68 @@ This is the main affilate marketing website for Visaeg London - a curation of cu
 >
 + a. As a first time visitor, I want to easily navigate to fashion items as advertised on Kayanat Suleman's Instagram and learn more about her vision in fashion.
 + b. As a first time visitor, I want to be able to easily identify the key areas of the website, and navigate throughout the site to find content with ease.
-+ c. As a first time visitor, I want to look for visual recognition of affilate products that are highlighted on Kayanat Suleman's Instgram account. I also want to locate her social media links to see their followings on social media to determine how trusted and known she is.
++ c. As a first time visitor, I want to look for visual recognition of affiliate products that are highlighted on Kayanat Suleman's Instagram account. I also want to locate her social media links to see their followings on social media to determine how trusted and known she is.
 
 >
 > Returning Visitor Goals
 >
-+ a. As a Returning Visitor, I want to find information about new seasonal outfit and products assoicated with that.
-+ b. As a Returning Visitor, I want to read the new articles related to body confidence and to style certian pieces.
-+ c. As a Returning Visitor, I want to shop related affilate products listed on Kayanat Suleman's social media accounts.
++ a. As a Returning Visitor, I want to find information about new seasonal outfit and products associated with that.
++ b. As a Returning Visitor, I want to read the new articles related to body confidence and to style certain pieces.
++ c. As a Returning Visitor, I want to shop related affiliate products listed on Kayanat Suleman's social media accounts.
 
 >
 > Frequent Visitor Goals
 >
 + a. As a Frequent User, I want to check to see if there are any newly added articles.
 + b. As a Frequent User, I want to check to see if there are any new article posts on the Weekly Edit section of the website.
-+ c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Future intregration.
++ c. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation. - Future integration.
 
 ### **Design**
 >
 > Color Scheme
 >
 
-+ The two main colours used are white, and black to minic the style of an old school newpaper.
-+ The background colour is #f9f7f1 - to resonate with the user idea of a newpaper and help draw the connection between an old school newspaper contrasted by modern images of fashion poses to create intrest with the target audience.
++ The two main colours used are white, and black to mimic the style of an old school newspaper.
++ The background colour is #f9f7f1 - to resonate with the user idea of a newspaper and help draw the connection between an old school newspaper contrasted by modern images of fashion poses to create interest with the target audience.
 
 >
 > Typography
 >
 
-+ The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
++ The Bebas Neue font is small and minimalistic to ensure that the interface remains elegant and subdued - small text also is resonant of a newspaper. To create a plethora of hierarchy I introduced three fonts in total, to complement the design of the website. The headings used the Playfair Display font, and the supporting text used the font EB Garamond to create contrast. The end result was a website that resonated the look and feel of a newspaper, but modern.
 
 >
 > Imagery
 >
 
-+ Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
++ Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern aesthetic highlighting the models showcasing their outfits also helps the user understand the purpose of this website. The hero image also creates an interesting landing page which is inviting yet intreging for the user.
 
 ### **Wireframe**
 >
-> + Home Page Wireframe - (view) [link: ]
-> + Mobile Wireframe - (view) [link: ]
-> + Contact Us Wireframe - (view) [link: ]
+> + Home Page Wireframe <img src="assets/img/visaeg_home_1.jpg"> <img src="assets/img/visaeg_home_2.jpg">
+> + Shop My Outfits Wireframe <img src="assets/img/shop_my_outfits_2.jpg">
+> + Weekly Edit Wireframe <img src="assets/img/weekly_edit.jpg">
 >
 
 # Features
 
-+ Responsive on all device sizes.
-
-+ Interactive Elements.
++ Responsive on all device sizes - including mobile and tablets.
++ Integrating of LikeToKnow.it widgets to help the user experience when shopping for affiliate links.
 
 # Technologies Used
 
 ### **Languages Used**
 >
-+ HTML -  [Hyper link to Wiki site: <https://en.wikipedia.org/wiki/HTML5> ]
-+ CSS3 - [Hyper link to Wiki site: <https://en.wikipedia.org/wiki/CSS> ]
++ [HTML](<https://en.wikipedia.org/wiki/HTML>)
+
++ [CSS](<https://en.wikipedia.org/wiki/CSS>)
 >
 
 ### **Frameworks, Libraries & Programs Used**
 
 1. Google Fonts
 
-+ Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
++ Google fonts were used to import the 'Playfair Display , Bebas Neue, EB Garamond’ font into the style.css file which is used on all pages throughout the project.
 
 2. Font Awesome
 
@@ -83,7 +81,7 @@ This is the main affilate marketing website for Visaeg London - a curation of cu
 
 3. Git
 
-+ Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
++ Git was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 
 4. GitHub
 
@@ -98,31 +96,32 @@ This is the main affilate marketing website for Visaeg London - a curation of cu
 + Balsamiq was used to create the wireframes during the design process.
 ( link to wireframe part of README.md)
 
+7. Canva
+
++ Canva was used to help resize screenshots of the website to showcase the plethora of devices that the website can be used on.
+
 # Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-+ <https://jigsaw.w3.org/css-validator/#validate_by_input> (CSS Validator) (Link to Result.)
-+ <https://jigsaw.w3.org/css-validator/#validate_by_input> (Markup Validator) (Link to Results.)
++ [W3C HTML Validator: index.html - PASSED]
++ [W3C HTML Validator: stream-two - PASSED]
++ [W3C HTML Validator: stream-three - PASSED]
++ [W3C HTML Validator: stream-four - PASSED]
++ [W3C CSS Validator: css.stylesheet - PASSED]
 
 ### **Testing User Stories from User Experience (UX) Section**
 
 >
 > First Time Visitor Goals
 >
-+ i.  As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
++ i.  As a First Time Visitor, I want to see a clear and clean layout. Greeted with an aesthetic hero image, which depicts the intent of the website - a personal blog curated by a content creator.
 
-  + a. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-  + b. The main points are made immediately with the hero image
-  + c. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+  + a. As a user enters the website, they are greeted with an appealing and large logo, which allows them to connect the content creators brand with their personal social accounts.
+  + b. The main points are made immediately with the nav bar.
+  + c. The user has a concise and well-organised amount of options to click through on the nav bar, however as they scroll the home page they are greeted with two main clearly laid out sections, that help them further understand the use of the website and offer them value, as they search for their next fashion purchase.
 
-+ ii.  As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content
-
-  + a. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-  + b. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-  + c. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-+ iii.  As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
++ ii.  As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
 
   + a. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
   + b. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
@@ -131,38 +130,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 >
 > Returning Visitor Goals
 >
-+ i.  As a Returning Visitor, I want to find the new programming challenges or hackathons.
++ i.  As a Returning Visitor, I want to find the new articles centred around body positive messages and inspirational advice on how to dress to be confident.
 
-  + a. These are clearly shown in the banner message.
-  + b. They will be directed to a page with another hero image and call to action.
+  + a. These are clearly shown on the home page, under the WEEKLY EDIT header
+  + b. They will be directed to a page with another hero image and a "click here" assertive comment.
 
-+ ii.  As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
++ ii.  A future integration that would be helpful for a user to contact the content creator would be to add a CONTACT ME section to the footer.
 
-  + a. The navigation bar clearly highlights the "Contact Us" Page.
-  + b. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-  + c. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-  + d. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-  + e. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+  + a. This would be added to the footer to add ease of collaboration of future brands or if a personal user is curious about advice.
 
-+ iii.  As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
++ iii.  As a Returning Visitor, I want to find the Instagram and Tiktok links easily to my content creators social accounts.
 
-  + a. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-  + b. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-  + c. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+  + a. The Instagram and TikTok social buttons can be found on the footer of the website - which are clickable. They direct the user directly to the associated page.
+  + b. Alternatively, the user can find the associated Instagram pages linked on the SHOP MY OUTFITS tab from the navigation bar which is directly linked to the most relevant Instagram page. These links are directly linked to the affiliate links as defined by the Like to Know it widget.
+  + c. If the user is on the HOME page of Visaeg then they can access the most recent but condensed favourite items as defined by the content creator - these items are updated automatically and regularly - per month.
 
 >
 > Frequent User Goals
 >
-+ i.  Frequent User, I want to check to see if there are any newly added challenges or hackathons
-  + a. The user would already be comfortable with the website layout and can easily click the banner message.
++ i.  Frequent User, I wanted to ensure that every new post can be added easily onto the website on the Weekly Edit page
+  + a. The user would have found this easy to navigate because each new article is published under a new month section.
 
-+ ii.  As a Frequent User, I want to check to see if there are any new blog posts.
-  + a. The user would already be comfortable with the website layout and can easily click the blog link
++ ii.  As a Frequent User, I want to check to see if there are any new weekly edit articles.
+  + a. The user would already be comfortable with the website layout and can easily click the weekly edit section - however it would also show on the main home page, where the new articles are published for ease.
 
-+ iii.  As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-  + a. At the bottom of every page their is a footer which content is consistent throughout all pages.
-  + b. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-  + c. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
++ iii.  As a Frequent User, I want to access the content creators favourite fashion items.
+  + a. At the end of the home page- there is an accessible link which portrays the newest favourites of the month as dictated by the content creator. This is easily accessible as the like to know it widget allows the user to click on the item which takes the user directly to that particular item.
+  + b. This is also followed by the next page on the website which can be accessible from the nav bar - the SHOP MY OUTFITS section of the website has a distinguished widget asset that allows the user to see all relevant and up to date posts from the content creators - linked directly to the content creators Instagram page. This is updated automatically so that the user is always up to date with the most cutting edge fashion recommendations which are easily shoppable via the direct link to the desired product.
+  + c. A future integration that would be useful - would be to add product details to current articles directing the user to associated fashion items. This would increase the usability and usefulness of the article pages.
 
 ### **Further Testing**
 
@@ -174,7 +169,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### **Bug Fixes**
 >
 > Version 1
-> 
+>
 1. SETUP ISSUES
     + Problem: Can’t see browser preview in terminal (after creating terminal port 8000 using python 3-m http.server.
     + Solution: Use the magnifying glass icon to see the additional browser preview.
@@ -193,7 +188,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 >
 > Version 2
-> 
+>
 1. CSS STYLESHEET FONT APPLICATIONS ON ALL HTML FILES:
     + Problem: Of inserting my personal set of custom fonts using google fonts.
     + Solution: Click on font on google and select @import xyz. Add link to stylesheet, and using preferred css ruling given by google - update css font-family
@@ -205,8 +200,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 3. UPLOADING IMAGE TO ASSETS FOLDER:
    + 7. Problem: Trying to update an image in assets folder > img > logo.png.
-    Linked Logo.png using "a href=“assets/img/logo.png>" but no image display. 
-   + Solution: There was no img tag assocaited with the certain piece of code.
+    Linked Logo.png using "a href=“assets/img/logo.png>" but no image display.
+   + Solution: There was no img tag associated with the certain piece of code.
    + Reference:<https://stackoverflow.com/questions/41468951/images-not-displaying-in-github-pages>
 
 4. CENTERING LOGO:
@@ -228,13 +223,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 >
 > Version 3
-> 
+>
 1. HOW TO GET DESIRED NAVIGATION LOOK:
     + Problem: How to style my navigation bar to get desired look
     + Solution: Add hr element tag, top and bottom of nav element
-	  + Add CSS styling and # hr { border: 1px solid black; width: 1150px; }
-	  + Reduce the size of the line height : 15px; and height : 15px of the nav li.
-    + Future improvements: I would like the nav bar contents responsive by getting larger when the cursor floats over the options to create a more interactive user experience. 
+    + Add CSS styling and # hr { border: 1px solid black; width: 1150px; }
+    + Reduce the size of the line height : 15px; and height : 15px of the nav li.
+    + Future improvements: I would like the nav bar contents responsive by getting larger when the cursor floats over the options to create a more interactive user experience.
 
 2. WEBSITE STRUCTURE - LOGO.png CONNECTED TO HOME - WHEN CLICKED:
    + Problem: Need to connect the image used for logo to index.html so log take you back to homepage when clicked by user.
@@ -245,29 +240,29 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
    + Solution: How to make img responsive to site changes: .responsive {width: 100% height: auto;}
    + Reference:<https://www.w3schools.com/howto/howto_css_image_responsive.asp>
 
-4. SEARCH BAR INTREGRATION + RESPONSIVENESS:
+4. SEARCH BAR INTEGRATION + RESPONSIVENESS:
     + Problem: Add search bar to navigation bar.
     + Solution: Tutorials and code found as referenced below. However issue still persists - changes location on page when browser changes width.
-    + Reference: Search Box code used from <https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html> 
+    + Reference: Search Box code used from <https://www.w3docs.com/snippets/css/how-to-create-search-boxes.html>
     To make a more responsive design: <https://www.youtube.com/watch?v=9hF9co-SCKw&t=224s&ab_channel=Viajira>
     + Future improvements: Include a fully functioning search bar that can be used to search the contents of the website and respond with the correct information for users to navigate the website in an easier fashion.
 
 >
 > Version 4
-> 
+>
 1. ARTICLE IMPLEMENTATION AND STYLING ISSUES:
-    + Problem: make and style a container for text and image per article. 
-    + Problem: Image not entered 
-    + Problem: too much white space between both articles on both index. 
+    + Problem: make and style a container for text and image per article.
+    + Problem: Image not entered
+    + Problem: too much white space between both articles on both index.
     html and stream-three.
     + Problem: stream-four article columns need to be aligned side by side to create a 3 column newspaper style.
 
     + Solution: Using previous knowledge was able to configure some css styling by testing the website after each change to see which style was right for the website.
     + Using previous knowledge on centring images I was able to replicate correct code to centre image in the middle of div by adding padding and assigning a style rule to the immediate html tag.
     + Solution to problem three <https://stackoverflow.com/questions/19038799/why-is-there-an-unexplainable-gap-between-these-inline-block-div-elements>
-    + Solution: Examplar Article here https://codepen.io/silkine/pen/QWBxVX?editors=1100
+    + Solution: Exemplar Article here <https://codepen.io/silkine/pen/QWBxVX?editors=1100>
 
-2. FOOTER INTREGRATION & STYLING:
+2. FOOTER INTEGRATION & STYLING:
     + Problem: The icons sourced from font awesome do not show on the footer.
     + Problem: the footer would not centre.
 
@@ -276,8 +271,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 >
 > Version 5 & 6
-> 
-+ Final code - passed through validators. 
+>
++ Final code - passed through validators.
 
 # Deployment
 
@@ -345,9 +340,7 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
 ### **Code**
 
-+ The full-screen hero image code came from this
-+ Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-+ MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found Here
++ The hero image code came from an accumalation of four pictures sourced from the Kayanat Suleman [Pinterest board](<https://www.pinterest.co.uk/Kayanat_Suleman/vis%C3%A6g/>)
 
 ### **Content**
 
@@ -356,9 +349,5 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
 ### **Media**
 
-+ All Images were created by the developer.
++ Most images were sourced from Pinterest; for exemplar purposes. These will be replaced with personal content from Kayanat Suleman. The images sources can be found on Pinterest in the personal [Kayanat Suleman board.](<https://www.pinterest.co.uk/Kayanat_Suleman/vis%C3%A6g/>)
 
-### **Acknowledgements**
-
-+ My Mentor for continuous helpful feedback.
-+ Tutor support at Code Institute for their support.
